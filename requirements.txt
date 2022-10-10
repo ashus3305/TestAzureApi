@@ -3,5 +3,5 @@ Flask == 1.1.2
 Flask-Cors== 3.0.10
 wheel == 0.36.2
 escape==1.1
-jinja2==2.1.1
+jinja2
 
