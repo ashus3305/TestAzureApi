@@ -7,9 +7,12 @@ app = flask.Flask(__name__)
 
 
 # Controller-1
-@app.route("/home")
+@app.route("")
 def home():
     return "This is a demo api"
+@app.route("/home", methods=['GET'])
+def home():
+    return "welcome to home"
 
 
 
