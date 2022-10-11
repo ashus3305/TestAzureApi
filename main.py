@@ -7,8 +7,8 @@ app = flask.Flask(__name__)
 
 
 # Controller-1
-@app.route("")
-def home():
+@app.route("/")
+def default():
     return "This is a demo api"
 @app.route("/home", methods=['GET'])
 def home():
@@ -17,5 +17,5 @@ def home():
 
 
 # Running the api
-if __name__ == '__main__':
-    app.run()
+#if __name__ == '__main__':
+    #app.run()
